@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/d172800844.js" crossorigin="anonymous"></script>
+    <style>
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <header class="text-customColor2 mt-3">
+        <p class="text-center text-[28px]">Ready to get with times? | Get skill from mountscript.</p>
+        <div class="border-2 border-customColor2 w-11/12 h-20 mt-2 mx-auto rounded-full flex">
+            <img class="w-72 h-11 mt-4 ml-4 mr" src="/mount.png" alt="">
+            <div class="3links justify-between text-center ml-[184px] my-auto">
+                <a href="/index.html#search">
+                    <i class="fa-solid fa-magnifying-glass text-customColor2 fa-xl ml-8 hover:text-cust2hover"></i>
+                </a>
+                <a href="/index.html">
+                    <i class="fa-solid fa-house fa-xl m-8 hover:text-cust2hover"></i>
+                </a>
+                <a href="/index.html">
+                    <i class="fa-solid fa-globe fa-xl hover:text-cust2hover"></i>
+                </a>
+            </div>
+            <button class="relative group w-[249px] left-[296px]">
+                <div class="my-auto ml-[300px]">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-bars fa-2xl hover:hidden group-hover:hidden"></i>
+                            <ul id="disp" class="hidden group-hover:block absolute overflow-visible top-[-10px] w-[24px] left-[200px]">
+                                <li class="m-[20px]">
+                                    <a href="/course.html" class="block px-4 py-2 h-[40px] bg-customecolor4 rounded-full text-black hover:bg-cyan-900 hover:text-white">Course</a>
+                                </li>
+                                <li class="m-[20px]">
+                                    <a href="/about_us.html" class="block px-4 py-2 h-[40px] bg-customecolor4 rounded-full text-black hover:bg-cyan-900 hover:text-white">About Us</a>
+                                </li>
+                                <li class="m-[20px]">
+                                    <a href="/cotactus.html" class="block px-4 py-2 h-[40px] bg-customecolor4 rounded-full text-black hover:bg-cyan-900 hover:text-white">Contact Us</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </button>
+        </div>
+    </header>
+
+    <main class="form-container mt-[15px]">
+        <div>
+            <p class="text-[85px] text-commun text-center  ">Register here!</p>
+        </div>
+
+        <form  class="flex flex-col space-y-[22px] mt-[52px]">
+            <input type="text" placeholder="first name" class="w-[281px] h-[44px] bg-form text-center text-[24px] placeholder-black rounded-full outline-none">
+            <input type="text" placeholder="last name" class="w-[281px] h-[44px] bg-form text-center text-[24px] placeholder-black rounded-full  outline-none">
+            <input type="text" placeholder="username" class="w-[281px] h-[44px] bg-form text-center text-[24px] placeholder-black rounded-full  outline-none">
+            <input type="email" placeholder="email" class="w-[281px] h-[44px] bg-form text-center text-[24px] placeholder-black rounded-full  outline-none">
+            <input type="password" placeholder="password" class="w-[281px] h-[44px] bg-form text-center text-[24px] placeholder-black rounded-full  outline-none">
+           <button type="submit" class="bg-verti text-center text-white text-[20px]  hover:bg-cyan-200 hover:text-black   w-[192px] h-[31px] mx-auto rounded-full"> <a href="/404.html">sign in </a></button>
+        </form>
+        <div>
+            <p class="text-white mt-[20px]"> 
+                if u already have an account  click  <a href="/login.html" class="hover:text-red-400 text-blue-500 "> here!  </a>
+            </p>
+        </div>
+    </main>
+    <footer>
+        <hr class="border-customecolor4  w-[372px]  m-auto mt-[50px]">
+        <div class="mt-[50px] text-center" >
+          <p class="text-customecolor4 text-[30px] ">location</p>
+        <div class="flex justify-center m-auto mt-[30px]">
+          <i class="fa-solid fa-location-dot fa-2xl text-customecolor4 m-5"></i>
+           <p class="text-customecolor4 text-[30px]">Addis ababa, ethiopia   </p> 
+           <p class="text-customecolor4 text-[30px] ml-[30px] mb-10">st’marry university</p></div>
+        </div> 
+      </footer>
+</body>
+</html>
